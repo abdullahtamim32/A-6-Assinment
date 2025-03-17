@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Janala</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- css styles -->
+     <style>
+        .poppins{
+            font-family: "Poppins", sans-serif;
+        }
+        .HindSiliguri{
+            font-family: "Hind Siliguri", sans-serif;
+        }
+        .TiroBangla{
+            font-family: "Tiro Bangla", serif;
+        }
+        /* nav part */
+        /* nav btn */
+        .navbar{
+            background-color: #e6e6e6;
+            border-bottom: 2px solid #C6BDBD;
+            
+        }
+        .nav-btn{
+            border-color: #422AD5;
+           
+            color: #422AD5;
+           
+        }
+        /* main part */
+        .blue{
+            color: #00BCFF;
+        }
+     </style>
+</head>
+<body>
+   <header>
+      <nav class="nav-bar-parent-all-nav-items">
+        <div class="navbar bg-base-100 shadow-sm py-3">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                </div>
+              </div>
+              <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+               <div>
+                <p class="flex justify-center items-center pl-3">
+
+                    <span class="poppins font-semibold text-xl">English</span><img src="assets/logo.png" alt=""><span class="text-xl font-semibold">জানালা</span>
+               </p>
+                  
+               </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+            </div>
+            <div class="navbar-end flex gap-2 pr-3">
+             <a href="#FAQ-MAIN-PARENT"><button class="btn nav-btn font-semibold"><img src="assets/fa-circle-question.png" alt="">FAQ</button> </a>
+              <button class="btn nav-btn font-semibold"><img src="assets/fa-book-open.png" alt="">Learn</button>
+              <button class="btn nav-btn font-semibold"><img src="assets/fa-arrow-right-from-bracket.png" alt="">Logout</button>
+              
+            </div>
+          </div>
+      </nav>
+   </header>
+   <!-- main part start here -->
+    <main>
+        <!-- hero section text input and img part main parent -->
+         <section class="hero-section-text-input-img-main-parent my-10 flex justify-center items-center ml-20 gap-36 px-14">
+            <!-- Total english is easy and input field main parent -->
+             <section class="total-english-is-easy-and-input-field-main-parent ">
+            <!-- English is easy text -->
+              <div>
+                 <p class="poppins font-bold text-5xl mb-4">
+                    <span class="blue">English</span> is Easy 
+                 </p>
+              </div>
+              <!-- learn english  Interactive Lessons bangla text part -->
+              <div>
+                 <p class="HindSiliguri font-medium w-[30rem] my-7">
+                    আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ
+                 </p>
+              </div>
+              <!-- 2 input field part -->
+              <div class="flex flex-col gap-4 mb-4">
+                <input style="font-family:  Poppins, sans-serif;" type="text" placeholder="Entert Your Name" class="input">
+                
+                <input id="hero-sec-second-input-field" style="font-family: Poppins, sans-serif;" type="text" placeholder="Enter your login pass(123456)" class="input">
+              </div>
+              <div>
+                <button id="hero-section-banner-btn" style="color: white" class="btn btn-primary text-[#422AD5] poppins">Get Started</button>
+              </div>
+            </section>
+            <!-- total hero section img part -->
+             <section class="hero-section-total-img-part">
+                     <img src="assets/hero-student.png" alt="a smart sdtudent picture">
+             </section>
+         </section>
+
+         <!-- Let's Learn Vocabularies and 7 section  main parent start -->
+          <section class="Lets-Learn-Vocabularies-main-parent-cls my-32" id="Lets-Learn-Vocabularies-main-parent-id">
+               <!-- Let's Learn Vocabularies text part -->
+                <div>
+                   <h2 class="text-4xl font-bold text-center poppins">
+                    <span class="text-[#00BCFF]">Let's</span> Learn Vocabularies
+                   </h2>
+                </div>
+          </section>
+
+
+          <!-- Frequently Asked Questions (FAQ) SECTION-->
+
+          <section id="FAQ-MAIN-PARENT" class="Frequently-Asked-Questions-SECTION-MAIN-PARENT my-44 poppins px-36">
+            <!-- FAQ title -->
+             <div>
+                <h2 class="text-4xl font-bold poppins text-center mb-16"><span class="text-[#00BCFF]">Frequently</span> Asked Questions</h2>
+             </div>
+             <!-- total faq section -->
+              <!-- 1st faq sec -->
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title font-semibold">1. The difference between var, let, and const</div>
+              <div class="collapse-content text-sm">var is the old version but the latest version of ES6 is let and const.If we want to chage the value we use var and let.But there are many types of problem in this var variable keyword such as hoistiong and many more problems but the ES6 to bring let to change proper way variable value and the most comonly used const variale key but we don't need to change the variable value then we use it. </div>
+            </div>
+              <!-- 2st faq sec -->
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title font-semibold">2. The difference between map(), forEach(), and filter()
+              </div>
+              <div class="collapse-content text-sm">map(),forEach() and filter() alltime they apply a function and loop but map() amd filter() return us  values in the new  array but forEach() not return anytiong.But there are many difference to this three things.Map() apply a function and give us a value but if we change the value then we use if we increase or decrease our values and want to a the value in a new array then we use it. forEach() apply also a function and array and apply a loop in the array but forEach() not gived any return value. Filter() aplly also a loop amd function but it apply condition to the every arrays single element and return it in a new array.</div>
+            </div>
+           
+
+            <!-- 3rd faq sec -->
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title font-semibold">3. Explain arrow functions and how they are different from regular functions?</div>
+              <div class="collapse-content text-sm">Normal function there are not major difference.Normal function syntax very long and when we use callbackfunction the normal function syntax are very long but if we use arrow functiong our syntax are sorttend</div>
+            </div>
+            <!-- 4th faq sec -->
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title font-semibold"> 4. How JavaScript Promises work?</div>
+              <div class="collapse-content text-sm">JS promise give us a promise.This is a object.Js promise 3 types 1. pending 2. fulfil 3. reject. Its future pradict and show resolve or reject</div>
+            </div>
+            <!-- 5th faq sec -->
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title font-semibold">5. How closures work in JavaScript?</div>
+              <div class="collapse-content text-sm">If we need to any person can see our personal data then we use closer. Its a nested function to apply his data to his parent function and return it.</div>
+            </div>
+          </section>
+    </main>
+    <!-- footer part -->
+    <footer style="background-color: #e6e6e6;" class="footer sm:footer-horizontal  text-neutral-content items-center px-[9rem] py-9">
+      <aside class="">
+         <!-- footer left part logo and text part -->
+        <div>
+          <div>
+            <p class="flex justify-center items-center text-black">
+
+                <span class="poppins text-[1rem]">English</span><img class="w-[2rem]" src="assets/logo.png" alt=""><span class="w-[1rem] TiroBangla">জানালা</span>
+           </p>
+  
+           </div>
+        </div>
+        <!-- ইংরেজি শিখুন সহজে part -->
+         <div class="ইংরেজি-শিখুন-সহজে">
+            <p class="font-medium HindSiliguri text-black">
+              ইংরেজি শিখুন সহজে
+            </p>
+         </div>
+         <!-- small text part Providing ED-Tech Applications since 2025 -->
+          <div>
+              <p class="HindSiliguri text-black">
+                Providing ED-Tech Applications since 2025
+              </p>
+          </div>
+      </aside>
+      
+       
+      <nav class=" md:place-self-center md:justify-self-end">
+       <!-- Follow us part in footer -->
+       <div>
+        <p class="text-black font-semibold poppins mb-2">
+         Follow us
+        </p>
+      </div>
+      <section class="flex items-center justify-center gap-4">
+        <!-- facebook img -->
+       <div>
+         <img class="w-[1.8rem]" src="assets/fb-thumb.png" alt="">
+       </div>
+      <!-- youtube img -->
+       <div class="mt-1">
+          <img class="w-1.8rem" src="assets/youtube-thumb.png" alt="">
+       </div>
+        <!-- instagram img -->
+         <div class="mt-1">
+            <img class="w-[1.8rem]" src="assets/instagram-thumb.png" alt="">
+         </div>
+         <!-- github img -->
+        <div>
+           <img class="w-[1.8rem]" src="assets/github-thumb.png" alt="">
+        </div>
+        </section>
+      </nav>
+    </footer>
+    <!-- js link here -->
+     <script src="js/login.js"></script>
+</body>
+</html>
