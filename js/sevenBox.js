@@ -5,7 +5,14 @@ let loadData = () => {
     .then(res => res.json())
     .then(data => sevenBox(data.data))
 }
-let sevenBox = (data) =>{
-    let 
+let sevenBox = (datas) =>{
+    let sevenBoxMainParent = document.getElementById("seven-box-sec-id");
+    for(let data of datas){
+        let createNewDivForSevenSection = document.createElement("div");
+        
+        createNewDivForSevenSection.innerHTML = `<button class="btn nav-btn font-semibold"><img src="assets/fa-book-open.png" alt="">Lesson-${data.level_no}</button>`
+        sevenBoxMainParent.appendChild(createNewDivForSevenSection)
+    }
+
 }
 loadData()
